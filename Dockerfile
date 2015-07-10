@@ -5,7 +5,7 @@ RUN apt-get install -y apache2 \
   libapache2-mod-auth-cas
 
 #Copy in the our httpd.conf and activate it
-COPY apache2.conf /etc/apache2/httpd.conf
+COPY apache2.conf /etc/apache2/apache2.conf
 
 #Copy in the our custom kuali-tools.conf and activate it
 COPY kuali-tools-site.conf /etc/apache2/sites-available/kuali-tools-site.conf
