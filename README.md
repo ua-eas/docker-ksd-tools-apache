@@ -11,6 +11,7 @@ Currently we have the following tools containers configured for apache to proxy 
 | Tool    | Docker Name       | Docker Image   | Tag    | GitHub Project/Branch  |
 |---------|-------------------|----------------|--------|------------------------|
 | Jenkins | ksd-tools-jenkins | [easksd/jenkins](https://registry.hub.docker.com/repos/easksd/) | latest |                        |
+| Nexus | ksd-tools-nexus | [sonatype/nexus](https://registry.hub.docker.com/u/sonatype/nexus/) | oss |
 
 ## Environment Variables
 
