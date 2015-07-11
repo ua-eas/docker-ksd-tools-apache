@@ -6,4 +6,5 @@ RUN a2ensite kuali-tools-site.conf
 
 EXPOSE 80
 
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+# See easksd/apache. The startup command is defined there.
+CMD ["/start_apache.sh"]
