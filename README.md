@@ -33,6 +33,7 @@ $ docker run -d \
     -e "SERVER_NAME=ka-tools.mosaic.arizona.edu"
     --name ksd-tools-apache \
     --link ksd-tools-jenkins \
+    --link ksd-tools-nexus \
     -v /kuali-configs/security/tools/apache/:/security
     easksd/tools-apache \
     /start_apache.sh
