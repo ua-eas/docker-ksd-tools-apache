@@ -1,4 +1,4 @@
-FROM shaloo/apache
+FROM easksd/apache
 
 #Copy in the our custom kuali-tools.conf and activate it
 COPY ./conf/kuali-tools-site.conf /etc/apache2/sites-available/kuali-tools-site.conf
